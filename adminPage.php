@@ -74,7 +74,7 @@ $result = mysqli_query($conn, $query);
                             <td><?php echo htmlspecialchars($row['name']); ?></td>
                             <td><?php echo htmlspecialchars($row['Date']); ?></td>
                             <td><?php echo htmlspecialchars($row['time']); ?></td>
-                            <td><?php echo htmlspecialchars($row['location']); ?></td>
+                            
                             <td><a class="delete" href="deleteEvent.php?id=<?php echo $row['event_id']; ?>">Delete</a></td>
                         </tr>
                     <?php } ?>
